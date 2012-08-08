@@ -336,7 +336,8 @@ public class SlidingMenu extends RelativeLayout {
 
 	public void setFitsSysWindows(boolean b) {
 		if (Build.VERSION.SDK_INT >= 14) {
-			super.setFitsSystemWindows(b);
+            // TODO SJ
+			//super.setFitsSystemWindows(b);
 		} else {
 			int topMargin = 0;
 			if (b) {
