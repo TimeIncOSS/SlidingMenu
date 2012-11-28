@@ -163,6 +163,10 @@ public class SlidingMenu extends RelativeLayout {
 		mViewAbove.setCurrentItem(1);
 	}
 
+    public void showAbove(boolean smoothScroll) {
+        mViewAbove.setCurrentItem(1, smoothScroll);
+    }
+
 	/**
 	 * 
 	 * @return Whether or not the behind view is showing
