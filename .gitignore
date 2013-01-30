@@ -16,3 +16,4 @@ gen
 local.properties
 project.properties
 *.iml
+.classpath
